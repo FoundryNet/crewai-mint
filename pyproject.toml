@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "crewai-mint"
+version = "1.0.0"
+description = "MINT Protocol integration for CrewAI - Earn MINT tokens for crew task execution"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "FoundryNet", email = "hello@foundrynet.io" }
+]
+keywords = ["crewai", "mint", "foundrynet", "solana", "depin", "ai-agents"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "crewai>=0.1.0",
+    "solana>=0.30.0",
+    "solders>=0.18.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/foundrynet"
+Documentation = "https://github.com/foundrynet/crewai-mint"
+Repository = "https://github.com/foundrynet/crewai-mint"
+
+[tool.hatch.build.targets.wheel]
+packages = ["crewai_mint"]

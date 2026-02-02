@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>mint_ros</name>
+  <version>1.0.0</version>
+  <description>MINT Protocol for ROS 2</description>
+  <maintainer email="hello@foundrynet.io">FoundryNet</maintainer>
+  <license>MIT</license>
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
