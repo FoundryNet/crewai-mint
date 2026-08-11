@@ -9,7 +9,7 @@ description = "MINT Protocol integration for CrewAI - Earn MINT tokens for crew 
 readme = "README.md"
 license = "MIT"
 authors = [
-    { name = "FoundryNet", email = "hello@foundrynet.io" }
+    { name = "FoundryNet", email = "forge@foundrynet.io" }
 ]
 keywords = ["crewai", "mint", "foundrynet", "solana", "depin", "ai-agents"]
 classifiers = [
